@@ -1,0 +1,28 @@
+ISO-10303-21;
+HEADER;
+FILE_DESCRIPTION (( 'STEP AP214' ),
+    '1' );
+FILE_NAME ('Airfoil multi wing.STEP',
+    '2025-11-04T16:45:40',
+    ( '' ),
+    ( '' ),
+    'SwSTEP 2.0',
+    'SolidWorks 2025',
+    '' );
+FILE_SCHEMA (( 'AUTOMOTIVE_DESIGN' ));
+ENDSEC;
+
+DATA;
+#1 = PRODUCT ( 'Airfoil multi wing', 'Airfoil multi wing', '', ( #5 ) ) ;
+#2 = PRODUCT_DEFINITION ( 'UNKNOWN', '', #8, #11 ) ;
+#3 = PRODUCT_RELATED_PRODUCT_CATEGORY ( 'part', '', ( #1 ) ) ;
+#4 = APPLICATION_CONTEXT ( 'automotive_design' ) ;
+#5 = PRODUCT_CONTEXT ( 'NONE', #4, 'mechanical' ) ;
+#6 = PRODUCT_DEFINITION_SHAPE ( 'NONE', 'NONE',  #2 ) ;
+#7 = APPLICATION_CONTEXT ( 'automotive_design' ) ;
+#8 = PRODUCT_DEFINITION_FORMATION_WITH_SPECIFIED_SOURCE ( 'ANY', '', #1, .NOT_KNOWN. ) ;
+#9 = APPLICATION_PROTOCOL_DEFINITION ( 'draft international standard', 'automotive_design', 1998, #4 ) ;
+#10 = APPLICATION_PROTOCOL_DEFINITION ( 'draft international standard', 'automotive_design', 1998, #7 ) ;
+#11 = PRODUCT_DEFINITION_CONTEXT ( 'detailed design', #7, 'design' ) ;
+ENDSEC;
+END-ISO-10303-21;
